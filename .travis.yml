@@ -17,4 +17,4 @@ before_install:
     - docker build -t webapp:test .
 
 script:
-    - docker run -it --rm -v ~/.nuget/packages webapp:test
+    - docker run -it --rm -v ~/publish:/root/publish -v ~/.nuget/packages:/root/nuget/packages webapp:test
