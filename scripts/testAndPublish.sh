@@ -2,4 +2,4 @@
 set -e
 dotnet restore
 dotnet test webapp.unittests
-dotnet publish -o /publish
+dotnet publish webapp -o /root/publish
