@@ -2,7 +2,7 @@ branches:
     only:
     - master
 
-chache:
+cache:
     directories:
     - ~/cache
 
